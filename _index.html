@@ -44,7 +44,8 @@
           <a href="<%= pkg.pdf %>">
             <i class="fa fa-file-pdf-o fa-inverse"></i></a>
         </span>
-        <span class="commit"><%= pkg.commit %></span>
+        <a class="commit" href="https://github.com/<%= pkg.repository %>/commit/<%= pkg.commit %>">
+          <%= pkg.commit %></a>
       </div>
 
     </div>
