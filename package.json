@@ -9,10 +9,10 @@
   "author": "Sean Ho <seanho@seanho.com> (http://seanho.com)",
   "config": {
     "pretty_url": "reveal-skel.seanho.com",
-    "cname": "reveal-skel.seanho.com",
+    "cname": null,
     "multiplex": {
-      "url": "https://mp.seanho.com/",
-      "id": "22bc761ffc97809b"
+      "url": "https://reveal-multiplex-multiplex.apps.us-east-2.starter.openshift-online.com/",
+      "id": "18133060e652e930"
     },
     "git": {
       "name": "Sean Ho",
