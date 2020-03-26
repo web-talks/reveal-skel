@@ -11,9 +11,10 @@
 github_key=""
 
 # config can override defaults
-CONF=$HOME/.travis-key.conf
+CONF=$HOME/.config/travis-key.conf
 [ -r "$CONF" ] && . "$CONF"
 
+travis login --org
 travis sync --org
 travis enable --org $@
 travis env set github_key "$github_key" -p $@
